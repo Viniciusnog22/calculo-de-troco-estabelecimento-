@@ -1,0 +1,16 @@
+# entrada de dados 
+preco_itens = float(input(*Informe o preco do item: *))
+quantidade = int(input(*Informe a quantidade de itens comprados))
+valor_pago = float(input(*informe o valor pago: *))
+
+
+# Calculo do custo total 
+custo_total = preco_item *  quantidade 
+
+# calculo do troco 
+troco = valor_pago - custo toral 
+
+# Exibição do resultado 
+print("quantidade de itens comprados: ", quantidade)
+print("Custo total dos itens: ", custo_total)
+print("Troco: ", troco)
